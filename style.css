@@ -1,0 +1,55 @@
+table,td,tr,th{
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    height: 40px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+table{
+    width: 50%;
+    background-color: white;
+}
+th{
+    width: 300px;
+    font-size: 24pt;
+    background-color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.kep{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+img{
+    width: 500px;
+    height: 200px;
+    opacity: 0.5;
+    box-shadow: 10px 5px 5px rgb(97, 97, 97);
+    border-radius: 10px;
+}
+div>a:hover, a>img:hover{
+    opacity: 1;
+    box-shadow: 10px 5px 5px black
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+    img{
+        width: 600px;
+        height: 300px;
+        opacity: 0.5;
+        box-shadow: 10px 5px 5px rgb(97, 97, 97);
+        border-radius: 10px;
+    }
+}
+td[title ='wawa']{
+    font-weight: bolder;
+}
+*{
+    background-color: green;
+}
+
