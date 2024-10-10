@@ -1,3 +1,11 @@
+body{
+    background-image: url('mikro.gif');
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
+    background-size: cover;
+    text-align: center;
+}
+
 table,td,tr,th{
     text-align: center;
     margin: auto;
@@ -49,7 +57,10 @@ div>a:hover, a>img:hover{
 td[title ='wawa']{
     font-weight: bolder;
 }
-*{
-    background-color: green;
+#cica{
+    text-align: center;
+    margin: auto;
+    margin-top: 900px;
 }
+
 
